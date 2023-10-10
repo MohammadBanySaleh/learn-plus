@@ -1,0 +1,56 @@
+.topicNameDiv {
+    width: 100%;
+    background-color: #d0cdcd;
+    text-align: start;   
+}
+.topicName{
+    color: #e34b11;
+}
+.contentList {
+    list-style-type: none;
+}
+
+.contentList li {
+    margin-bottom: 20px;
+    color: #3078B0;
+}
+.contentList li a {
+    color: #3078B0;
+    font-size: 20px;
+}
+.icon_text_list_item {
+    display: flex;
+    flex-direction: row;
+}
+.icon_text_list_item span {
+    margin-top: 5px;
+    margin-right: 10px;
+    font-size: 30px;
+    color: #e34b11;
+}
+.text-content {
+    color: black;
+}
+.text-content p {
+    font-size: 2.5vh;
+    padding-left: 40px;
+}
+.text-content ul {
+    font-size: 2vh;
+    padding-left: 65px;
+    
+}
+.subTopic {
+    width: 70%;
+    background-color: #d0cdcd;
+    text-align: start;
+    padding-left: 10px;
+    margin-left: 40px;
+}
+
+
+@media  (max-width: 320px) {
+    .contentList {
+        padding: 0px;
+    }
+}
